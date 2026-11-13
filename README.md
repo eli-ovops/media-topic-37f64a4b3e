@@ -1,38 +1,35 @@
-# 自媒体文案工作区
+# Words Before Frames
 
-整理内容文案、相关版本和制作说明。
+**A compact writing workspace for developing the copy behind a video before committing to the edit.**
 
-GitHub：[eli-ovops/media-topic-37f64a4b3e](https://github.com/eli-ovops/media-topic-37f64a4b3e)
+## What you will find
 
-## 内容
+The implementation and working material behind this project, including the decisions and review notes retained in the public snapshot.
 
-本次公开副本包含 7 个来源文件。
+## Start here
 
-- [`抖音看稿与补录方法.md`](%E6%8A%96%E9%9F%B3%E7%9C%8B%E7%A8%BF%E4%B8%8E%E8%A1%A5%E5%BD%95%E6%96%B9%E6%B3%95.md)
-- [`抖音看稿与补录来源.json`](%E6%8A%96%E9%9F%B3%E7%9C%8B%E7%A8%BF%E4%B8%8E%E8%A1%A5%E5%BD%95%E6%9D%A5%E6%BA%90.json)
-- [`高性价比人生指南-参照声画表.md`](%E9%AB%98%E6%80%A7%E4%BB%B7%E6%AF%94%E4%BA%BA%E7%94%9F%E6%8C%87%E5%8D%97-%E5%8F%82%E7%85%A7%E5%A3%B0%E7%94%BB%E8%A1%A8.md)
-- [`高性价比人生指南-口播初稿.md`](%E9%AB%98%E6%80%A7%E4%BB%B7%E6%AF%94%E4%BA%BA%E7%94%9F%E6%8C%87%E5%8D%97-%E5%8F%A3%E6%92%AD%E5%88%9D%E7%A8%BF.md)
-- [`高性价比人生指南-拍摄执行卡.md`](%E9%AB%98%E6%80%A7%E4%BB%B7%E6%AF%94%E4%BA%BA%E7%94%9F%E6%8C%87%E5%8D%97-%E6%8B%8D%E6%91%84%E6%89%A7%E8%A1%8C%E5%8D%A1.md)
-- [`高性价比人生指南-素材编排.md`](%E9%AB%98%E6%80%A7%E4%BB%B7%E6%AF%94%E4%BA%BA%E7%94%9F%E6%8C%87%E5%8D%97-%E7%B4%A0%E6%9D%90%E7%BC%96%E6%8E%92.md)
-- [`高性价比人生指南-补录口播.md`](%E9%AB%98%E6%80%A7%E4%BB%B7%E6%AF%94%E4%BA%BA%E7%94%9F%E6%8C%87%E5%8D%97-%E8%A1%A5%E5%BD%95%E5%8F%A3%E6%92%AD.md)
+- [Working note 1](%E6%8A%96%E9%9F%B3%E7%9C%8B%E7%A8%BF%E4%B8%8E%E8%A1%A5%E5%BD%95%E6%96%B9%E6%B3%95.md)
+- [Working note 2](%E9%AB%98%E6%80%A7%E4%BB%B7%E6%AF%94%E4%BA%BA%E7%94%9F%E6%8C%87%E5%8D%97-%E5%8F%A3%E6%92%AD%E5%88%9D%E7%A8%BF.md)
+- [Working note 3](%E9%AB%98%E6%80%A7%E4%BB%B7%E6%AF%94%E4%BA%BA%E7%94%9F%E6%8C%87%E5%8D%97-%E7%B4%A0%E6%9D%90%E7%BC%96%E6%8E%92.md)
+- [Complete source inventory](SOURCE_MANIFEST.csv)
 
-文件类型：.md（6）、.json（1）。
+## Current scope
 
-## 使用与阅读入口
+This snapshot includes 7 source files. Original media, databases, private account records and other unprocessed attachments were not included in this text-and-source release.
 
-先查看保留的原项目 README、包清单与直接相关源码；运行环境和依赖以项目内实际说明为准。
+This update improves the English presentation. It does not rerun the project, install a skill, reproduce an old test, or establish production readiness. Some original working documents retain their source language; machine-specific paths or setup assumptions may still need adaptation.
 
-## 来源与许可
+## Sources and license
 
-本仓库新增介绍及用户原创部分按 MIT 许可公开；第三方材料按其各自许可证和署名使用，不以本许可证重新授权第三方内容。
+The owner's original contributions and new presentation notes follow the [retained license](LICENSE). Third-party material keeps its own licenses and attribution; this does not relicense it.
 
-来源文件中记录的公开 GitHub 链接（不表示已逐项独立验证）：
+<details>
+<summary>Reference links retained from the source notes</summary>
+
+These links were present in the project material; they have not all been independently reviewed.
+
 - https://github.com/eternity4719/HowToLiveBetter
 
-## 当前状态与验证边界
+</details>
 
-- 本次完成公开副本整理和静态检查；没有运行来源代码、构建 App、安装 Skill 或启动服务。
-- 项目可能处于原型、实验或研究阶段；没有将其表述为生产交付、客户验收或经过验证的投资收益。
-- 图片、视频、数据库、真实账户记录及未确认可公开的附件没有随本次文本/源码副本上传。
-- 部分相对链接、运行依赖或素材可能仍需补齐；原始快照中的静态引用缺口数为 0，该数字不是运行失败数。
-- [本次来源文件清单](SOURCE_MANIFEST.csv)
+[Source paths and hashes](SOURCE_MANIFEST.csv)
